@@ -34,7 +34,32 @@ public class User {
     this.id = id;
   }
 
-  public String getUsername() {
+  public User(Long id, String username) {
+	super();
+	this.id = id;
+	this.username = username;
+}
+
+@Override
+public String toString() {
+	return "User [id=" + id + ", username=" + username + ", name=" + name + ", age=" + age + ", balance=" + balance
+			+ "]";
+}
+
+public User() {
+	super();
+}
+
+public User(Long id, String username, String name, Short age, BigDecimal balance) {
+	super();
+	this.id = id;
+	this.username = username;
+	this.name = name;
+	this.age = age;
+	this.balance = balance;
+}
+
+public String getUsername() {
     return this.username;
   }
 

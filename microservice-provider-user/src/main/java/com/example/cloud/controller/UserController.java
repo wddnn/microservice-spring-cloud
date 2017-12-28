@@ -56,16 +56,16 @@ public class UserController {
 	    return user;
 	  }
 
-//	  @GetMapping("list-all")
-//	  public List<User> listAll() {
-//	    ArrayList<User> list = Lists.newArrayList();
-//	    User user = new User(1L, "zhangsan");
-//	    User user2 = new User(2L, "zhangsan");
-//	    User user3 = new User(3L, "zhangsan");
-//	    list.add(user);
-//	    list.add(user2);
-//	    list.add(user3);
-//	    return list;
-//
-//	  }
+	  @GetMapping("list-all")
+	  public List<User> listAll() {
+	    ArrayList<User> list = Lists.newArrayList();
+	    User user = new User(1L, "zhangsan");
+	    User user2 = new User(2L, "zhangsan");
+	    User user3 = new User(3L, "zhangsan");
+	    list.add(user);
+	    list.add(user2);
+	    list.add(user3);
+	    return list;
+
+	  }
 }
