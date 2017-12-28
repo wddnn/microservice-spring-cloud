@@ -10,6 +10,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.web.client.RestTemplate;
 
+import com.itmuch.cloud.ExcludeFromComponentScan;
+
 @SpringBootApplication
 @EnableEurekaClient
 @RibbonClient(name = "microservice-provider-user", configuration = TestConfiguration.class)

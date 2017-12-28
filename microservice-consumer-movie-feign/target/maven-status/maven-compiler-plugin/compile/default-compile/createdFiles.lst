@@ -1,0 +1,4 @@
+com\example\cloud\fegin\UserFeignClient.class
+com\example\cloud\ConsumerMovieFeignApplication.class
+com\example\cloud\entity\User.class
+com\example\cloud\controller\MovieController.class

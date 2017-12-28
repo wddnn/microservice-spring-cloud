@@ -1,0 +1,4 @@
+com\example\cloud\ProviderUserApplication.class
+com\example\cloud\controller\UserController.class
+com\example\cloud\repository\UserRepository.class
+com\example\cloud\entity\User.class

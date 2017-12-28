@@ -1,0 +1,4 @@
+com\example\cloud\ConsumerMovieRibbonApplication.class
+com\example\cloud\entity\Greeting.class
+com\example\cloud\entity\User.class
+com\example\cloud\controller\MovieController.class
