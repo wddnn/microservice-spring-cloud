@@ -9,10 +9,6 @@ eureka:
       defaultZone: http://root:root@localhost:8761/eureka/
   instance:
     prefer-ip-address: true
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
-ribbon:
-  ConnectTimeout: 3000
-  ReadTimeout: 60000
 #方式1
 #zuul:
 #  ignoredServices: microservice-consumer-movie-ribbon-with-hystrix
@@ -42,13 +38,6 @@ ribbon:
 #microservice-provider-user:     # 这边是ribbon要请求的微服务的serviceId
 #  ribbon:
 #    listOfServers: http://localhost:7800,http://localhost:7801   
-
-#zuul:
-#  prefix: /simple
-#  strip-prefix: false
-#logging:
-#  level:
-#    com.netflix: DEBUG
 
     
     
