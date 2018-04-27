@@ -26,7 +26,8 @@ public class MovieController {
 	}
 	public User findByIdFallback(Long id) {
 
-
+    			  
+		
 		User user = new User();
 		user.setId(0L);
 		return user;
