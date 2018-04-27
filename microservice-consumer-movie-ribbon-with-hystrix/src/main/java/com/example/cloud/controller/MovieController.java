@@ -25,8 +25,6 @@ public class MovieController {
 		return this.restTemplate.getForObject("http://microservice-provider-user/simple/" + id, User.class);
 	}
 	public User findByIdFallback(Long id) {
-
-
 		User user = new User();
 		user.setId(0L);
 		return user;
